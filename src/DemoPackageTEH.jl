@@ -1,5 +1,7 @@
 module DemoPackageTEH
 
-# Write your package code here.
+export print_greeting
+
+print_greeting() = println("Hi body!")
 
 end
